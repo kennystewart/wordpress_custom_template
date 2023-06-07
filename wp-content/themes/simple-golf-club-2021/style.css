@@ -1,0 +1,25 @@
+/**
+ * Theme Name:   Simple Golf Club 2021
+ * Theme URI:    https://simplegolfclub.com
+ * Description:  Simple Golf Club 2021 Theme implements the <a href="https://https://wordpress.org/plugins/simple-golf-club/">Simple Golf Club</a> plugin features. Simple Golf Club provides an easy way you to coordinate golf outings. Put together a team of people, organize small groups, verify availability, and keep track of scores. Requires Wordpress' <a href="https://wordpress.org/themes/twentytwentyone/">Twenty Twenty One</a> Theme.
+ * tags:         blog, entertainment, news
+ * Author:       Matthew Linton
+ * Author URI:   https://gitlab.com/mlinton/
+ * Template:     twentytwentyone
+ * Requires at least: 5.0
+ * Tested up to: 6.0
+ * Requires PHP: 7.0
+ * License: GPLv2
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Version:      1.0.3
+ * Text Domain:	 simple-golf-club-2021
+ */
+
+/* ----------------------------------------------------------------------------
+ * Add your Theme css styles 
+ * ------------------------------------------------------------------------- */
+
+.sticky {
+    padding: 10px;
+    background: #ccc;
+}

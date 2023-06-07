@@ -1,0 +1,144 @@
+/**
+ * Widegts styling
+ *
+ */
+
+ /**********************
+    Heading field
+ ***********************/
+ .newsmatic-heading-field {
+    border-top: 1px double rgb(0 0 0 / 25%);
+    border-bottom: 1px double rgb(0 0 0 / 25%);
+    text-transform: uppercase;
+    background-color: #eeeeee;
+    width: 100%;
+    margin-left: -10px;
+    padding: 6px 20px;
+ }
+
+ .newsmatic-heading-field .heading {
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 2px;
+ }
+
+ .newsmatic-widget-field {
+   margin: 1em 0;
+ }
+
+ .newsmatic-widget-field .title {
+    font-size: small;
+    margin: 4px 0;
+ }
+
+ .newsmatic-widget-field .description {
+   font-style: italic;
+   padding: 0!important;
+ }
+
+ .newsmatic-multicheckbox-field .multicheckbox-content {
+   border: 1px solid #c3c4c7;
+   padding: 8px 10px;
+   min-height: 200px;
+   overflow-y: scroll;
+ }
+
+ .newsmatic-multicheckbox-field .multicheckbox-content .multicheckbox-single-item {
+   padding: 5px;
+ }
+
+ .newsmatic-widget-field input,
+ .newsmatic-widget-field select,
+ .newsmatic-widget-field textarea {
+   border-radius: 0;
+ }
+
+ .newsmatic-upload-field .upload-trigger.selected,
+ .newsmatic-upload-field .upload-buttons img.nothasImage,
+ .newsmatic-upload-field .upload-buttons.not-selected {
+   display: none;
+ }
+
+ .newsmatic-upload-field .upload-trigger {
+    background-color: #f0f0f1;
+    color: #2c3338;
+    border: 1px dashed #c3c4c7;
+    box-sizing: border-box;
+    cursor: pointer;
+    line-height: 1.6;
+    padding: 9px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.newsmatic-upload-field .upload-trigger:hover {
+  background-color: #fff;
+}
+
+.newsmatic-upload-field .upload-buttons button {
+  margin-top: 12px;
+  border-color: #d63638;
+}
+.newsmatic-upload-field .upload-buttons img{
+  width: 100%;
+}
+
+.newsmatic-widget-field .refer-note a {
+  color: #2271b1;
+}
+
+.newsmatic-icon-text-field .icon-selector-wrap {
+  display: none;
+}
+
+/* tab selector */
+.newsmatic-widget-field.newsmatic-icon-text-field .field-group-wrap .icon-selector i:after {
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  content: "\f107";
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1;
+  color: var(--white-text);
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.newsmatic-widget-field.newsmatic-icon-text-field .field-group-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsmatic-widget-field.newsmatic-icon-text-field .field-group-wrap .icon-field {
+  flex: 1;
+  border: 1px solid #6a6a6a;
+  margin-right: 10px;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 4px;
+}
+
+.newsmatic-widget-field.newsmatic-icon-text-field .field-group-wrap .icon-field:hover {
+  cursor: pointer;
+}
+
+.newsmatic-widget-field.newsmatic-icon-text-field .field-group-wrap .icon-selector-wrap {
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #545454;
+  border-radius: 5px;;
+}
+
+.newsmatic-widget-field.newsmatic-icon-text-field .field-group-wrap .icon-selector-wrap i {
+  color: #545454;
+  padding: 5px;
+}
+
+.newsmatic-widget-field.newsmatic-icon-text-field .field-group-wrap .icon-selector-wrap i:hover {
+  color: #000;
+  cursor: pointer;
+}
+

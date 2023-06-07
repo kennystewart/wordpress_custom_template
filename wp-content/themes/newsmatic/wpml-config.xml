@@ -1,0 +1,29 @@
+<wpml-config>
+	<admin-texts>
+		<key name="theme_mods_newsmatic">
+			<key name="global_button_text">
+                <key name="text" />
+            </key>
+            <key name="ticker_news_title">
+                <key name="text" />
+            </key>
+            <key name="bottom_footer_site_info" />
+            <key name="single_post_related_posts_title"/>
+            <key name="full_width_blocks">
+                <key name="*"/>
+            </key>
+            <key name="leftc_rights_blocks">
+                <key name="*"/>
+            </key>
+            <key name="lefts_rightc_blocks">
+                <key name="*"/>
+            </key>
+            <key name="bottom_full_width_blocks">
+                <key name="*"/>
+            </key>
+            <key name="opinons_items">
+                <key name="*"/>
+            </key>
+		</key>
+	</admin-texts>
+</wpml-config>

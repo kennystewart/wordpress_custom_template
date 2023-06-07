@@ -1,0 +1,43 @@
+.customize-control-radio-image .ui-button {
+	margin:0;
+	border-radius:0;
+	border:none;
+	background:transparent;
+}
+
+.customize-control-radio-image .ui-button-text { 
+    padding: 0; 
+}
+
+.customize-control-radio-image img {
+	box-sizing: border-box;
+	max-width:100%;
+	height:auto;
+	padding:1px;
+	border:3px solid transparent;
+}
+
+.customize-control-radio-image img:hover, .customize-control-radio-image img:focus {
+    border-color: #ddd;
+}
+
+.customize-control-radio-image img {
+	border-width: 8px;
+    border-color: #c5c8cb;
+    border-bottom: none;
+    border-radius: 3px 3px 0 0;
+}
+
+.customize-control-radio-image .ui-state-active img {
+    border-color: #2271b1;
+}
+
+.customize-control-radio-image .buttonset {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.customize-control-radio-image .buttonset label.ui-button{
+    flex: 0 1 48%;
+    margin-right: 5px;
+}

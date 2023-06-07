@@ -1,0 +1,150 @@
+/**
+ * Applies styling for repeater control
+ * 
+ * Particular styling for this control
+ */
+ .newsmatic-repeater-control .newsmatic-repeater-control-inner {
+    padding: 10px;
+ }
+
+ .newsmatic-repeater-control .newsmatic-repeater-control-inner .newsmatic-repeater-item {
+    background: #ffffff;
+    box-shadow: -2px -2px 2px #e1dfdf;
+    z-index: 2;
+    margin-bottom: 6px;
+ }
+
+ .newsmatic-repeater-control .newsmatic-repeater-control-inner .newsmatic-repeater-item.not-visible {
+    opacity: 0.6;
+    border: 1px dashed;
+ }
+
+ .newsmatic-repeater-control-inner .newsmatic-repeater-item h2 {
+    margin: 0;
+ }
+
+ .newsmatic-repeater-control-inner .newsmatic-repeater-item .item-heading-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 14px;
+ }
+
+ .newsmatic-repeater-control-inner .newsmatic-repeater-item .item-heading-wrap .display-icon,
+ .newsmatic-repeater-control-inner .newsmatic-repeater-item .item-heading-wrap .item-heading {
+    cursor: pointer;
+ }
+
+ .newsmatic-repeater-control-inner .newsmatic-repeater-item .item-heading-wrap .sortable-icon {
+    cursor: move;
+ }
+
+ .newsmatic-repeater-control-inner .newsmatic-repeater-item .item-control-fields {
+    display: none;
+    padding: 10px 20px;
+    border-top: 1px solid #00000040;
+}
+
+.newsmatic-repeater-item .item-control-fields .control--item-label {
+    font-size: 14px;
+}
+
+.newsmatic-repeater-item .item-control-fields .control--item-description {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.newsmatic-repeater-item .item-control-fields .single-control {
+    margin-bottom: 8px;
+}
+
+.customize-control .newsmatic-repeater-control input, 
+.customize-control .newsmatic-repeater-control textarea,
+.customize-control .newsmatic-repeater-control .image-holder {
+    width: 100%;
+    margin-top: 2px;
+    border: none;
+    box-shadow: 0px 0px 2px rgb(24 35 177 / 58%);
+    border-radius: 0;
+}
+
+.newsmatic-repeater-control-inner .buttons-wrap {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.newsmatic-repeater-control-inner .buttons-wrap .add-new-item {
+    cursor: pointer;
+    padding: 4px 8px;
+    box-shadow: 0px 0px 2px rgb(24 35 177 / 58%);
+}
+
+.newsmatic-repeater-control-inner .remove-item {
+    color: #d63638;
+    text-decoration: underline;
+    text-align: right;
+    cursor: pointer;
+}
+
+.newsmatic-repeater-control-inner .image-field .image-holder .add-image-trigger {
+    cursor: pointer;
+    text-align: center;
+    border: 1px dashed #aba9a9;
+    padding: 8px 10px;
+}
+
+
+.newsmatic-repeater-control-inner .image-field .no-image, 
+.newsmatic-repeater-control-inner .image-field .no-trigger {
+    display: none;
+}
+
+.newsmatic-repeater-control-inner .image-field .image-holder .image-element {
+    position: relative;
+}
+
+.newsmatic-repeater-control-inner .image-field .image-holder .image-element .remove-image {
+    display: none;
+}
+.newsmatic-repeater-control-inner .image-field .image-holder .image-element:hover .remove-image {
+    position: absolute;
+    cursor: pointer;
+    color: #ff00009e;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed;
+    text-align: center;
+    display: flex;
+    top: 0;
+}
+
+.newsmatic-repeater-control-inner .image-field .image-holder .image-element:hover img {
+    opacity: 0.5;
+}
+
+/******** Fontawesome Icon picker ****************/
+.newsmatic-repeater-control .fontawesome-icon-picker .icon-header {
+    cursor: pointer;
+}
+
+.newsmatic-repeater-control .fontawesome-icon-picker .icons-list i {
+    cursor: pointer;
+}
+
+.newsmatic-repeater-control .fontawesome-icon-picker .icon-header {
+    display: flex;
+    background: #f0f0f1;
+    box-shadow: 0px 0px 2px rgb(24 35 177 / 58%);
+}
+
+.newsmatic-repeater-control .fontawesome-icon-picker .icon-header i {
+    font-size: 26px;
+}
+
+.newsmatic-repeater-control .fontawesome-icon-picker .icon-header > div {
+    flex: 50%;
+    text-align: center;
+    padding: 10px;
+}

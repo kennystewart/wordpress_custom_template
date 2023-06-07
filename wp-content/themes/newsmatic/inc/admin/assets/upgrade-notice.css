@@ -1,0 +1,23 @@
+div.theme-review-notice,
+div.newsmatic-upgrade-notice {
+  position: relative;
+  padding: 10px 50px 10px 10px;
+}
+
+.newsmatic-upgrade-notice .links {
+  padding-bottom: 10px;
+}
+
+.newsmatic-upgrade-notice .links a .dashicons {
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.newsmatic-upgrade-notice .links a.button {
+    padding: 2px 12px;
+    margin: 4px;
+}
+
+a.newsmatic-upgrade-notice-dismiss {
+  text-decoration: none;
+}

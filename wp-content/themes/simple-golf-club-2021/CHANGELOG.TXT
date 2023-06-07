@@ -1,0 +1,15 @@
+=== Simple Golf Club Theme ChangeLog ===
+For a complete list of changes see the commits page
+https://gitlab.com/mlinton/simple-golf-club-2021/-/commits/master
+
+= 1.0.3 =
+June 18, 2022
+* Make recommended changes per WP
+
+= 1.0.1 =
+June 13, 2022
+* Fix issues for release
+
+= 1.0.0 =
+Jun. 12, 2022
+* Initial Release

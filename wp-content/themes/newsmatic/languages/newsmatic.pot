@@ -1,0 +1,672 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Newsmatic\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-06 06:26+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Domain: newsmatic"
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:110
+msgid ", "
+msgstr ""
+
+#: 404.php:39 inc/breadcrumb-trail/breadcrumbs.php:314
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/widgets/popular-posts.php:16
+msgid "A collection of popular posts from specific category."
+msgstr ""
+
+#: inc/widgets/category-collection.php:16
+msgid "A collection of post categories."
+msgstr ""
+
+#: inc/widgets/posts-grid.php:16
+msgid "A collection of posts from specific category displayed in grid layout."
+msgstr ""
+
+#: inc/widgets/posts-grid-two-column.php:16
+msgid ""
+"A collection of posts from specific category displayed in grid two column "
+"layout."
+msgstr ""
+
+#: inc/widgets/posts-list.php:16
+msgid "A collection of posts from specific category displayed in list layout."
+msgstr ""
+
+#: inc/widgets/carousel.php:16
+msgid "A collection of posts from specific category for carousel slide."
+msgstr ""
+
+#: inc/widgets/widget-fields.php:99
+msgid "Add image"
+msgstr ""
+
+#: inc/widgets/author-info.php:114 inc/widgets/carousel.php:101
+#: inc/widgets/category-collection.php:111 inc/widgets/popular-posts.php:98
+#: inc/widgets/posts-grid-two-column.php:102 inc/widgets/posts-grid.php:102
+#: inc/widgets/posts-list.php:120
+msgid "Add the widget title here"
+msgstr ""
+
+#: inc/widgets/widget-title.php:51
+msgid "Add the widget title here."
+msgstr ""
+
+#: inc/widgets/widget-fields.php:70
+msgid "Add url here . ."
+msgstr ""
+
+#: inc/widgets/widgets.php:19 inc/widgets/widgets.php:32
+#: inc/widgets/widgets.php:45 inc/widgets/widgets.php:84
+#: inc/widgets/widgets.php:97 inc/widgets/widgets.php:110
+#: inc/widgets/widgets.php:123
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/widgets/widgets.php:71
+msgid "Add widgets suitable for middle left here."
+msgstr ""
+
+#: inc/widgets/widgets.php:58
+msgid "Add widgets suitable for middle right here."
+msgstr ""
+
+#: inc/theme-starter.php:263
+msgid "Advertisement Banner"
+msgstr ""
+
+#: inc/template-tags.php:215 inc/template-tags.php:226
+msgid "ago"
+msgstr ""
+
+#: inc/template-functions.php:268
+msgid "All"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumbs.php:315
+msgid "Archives"
+msgstr ""
+
+#: inc/widgets/author-info.php:126
+msgid "Author Image"
+msgstr ""
+
+#: inc/widgets/author-info.php:115
+msgid "Author Info"
+msgstr ""
+
+#: inc/widgets/author-info.php:120 inc/widgets/author-info.php:121
+msgid "Author Name"
+msgstr ""
+
+#: inc/widgets/author-info.php:131
+msgid "Author Tag"
+msgstr ""
+
+#: inc/widgets/author-info.php:106
+msgid "Author To Display"
+msgstr ""
+
+#: inc/widgets/author-info.php:137
+msgid "Author URL"
+msgstr ""
+
+#: inc/customizer/customizer.php:17
+msgid "Background"
+msgstr ""
+
+#: inc/customizer/customizer.php:489
+msgid "Background Color"
+msgstr ""
+
+#. Author of the theme
+msgid "BlazeThemes"
+msgstr ""
+
+#: inc/extras/extras.php:255
+msgid "Both Sidebar"
+msgstr ""
+
+#: functions.php:67
+msgid "Bottom Footer"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumbs.php:312
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumbs.php:311
+msgid "Browse:"
+msgstr ""
+
+#: inc/widgets/carousel.php:107 inc/widgets/popular-posts.php:104
+#: inc/widgets/posts-grid-two-column.php:108 inc/widgets/posts-grid.php:108
+#: inc/widgets/posts-list.php:126
+msgid "Categories"
+msgstr ""
+
+#: inc/widgets/category-collection.php:112
+msgid "Category Collection"
+msgstr ""
+
+#: inc/widgets/widget-title.php:61
+msgid "Center"
+msgstr ""
+
+#: inc/widgets/widget-title.php:58
+msgid "change the alignment of the wiget title text."
+msgstr ""
+
+#: inc/widgets/category-collection.php:118
+msgid "Choose the categories to display"
+msgstr ""
+
+#: inc/widgets/carousel.php:108
+msgid "Choose the category to display for carousel posts"
+msgstr ""
+
+#: inc/widgets/popular-posts.php:105
+msgid "Choose the category to display for popular posts"
+msgstr ""
+
+#: inc/widgets/posts-grid-two-column.php:109 inc/widgets/posts-grid.php:109
+#: inc/widgets/posts-list.php:127
+msgid "Choose the category to display list of posts"
+msgstr ""
+
+#. %s is the page number.
+#: inc/breadcrumb-trail/breadcrumbs.php:321
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:62
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/widgets/author-info.php:96
+msgid "Custom"
+msgstr ""
+
+#: inc/widgets/widget-title.php:50
+msgid "Custom Widget Title"
+msgstr ""
+
+#: inc/widgets/author-info.php:107
+msgid "Custom will allow you to display below custom content to add."
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumbs.php:837
+#: inc/breadcrumb-trail/breadcrumbs.php:1272
+#: inc/breadcrumb-trail/breadcrumbs.php:1274
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/widgets/author-info.php:142
+msgid "Description"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:87 template-parts/content-page.php:37
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/widgets/popular-posts.php:111
+msgid "Enable slider item to auto slide"
+msgstr ""
+
+#: inc/widgets/widgets.php:82
+msgid "Footer Sidebar - Column 1"
+msgstr ""
+
+#: inc/widgets/widgets.php:95
+msgid "Footer Sidebar - Column 2"
+msgstr ""
+
+#: inc/widgets/widgets.php:108
+msgid "Footer Sidebar - Column 3"
+msgstr ""
+
+#: inc/widgets/widgets.php:121
+msgid "Footer Sidebar - Column 4"
+msgstr ""
+
+#: inc/widgets/widgets.php:69
+msgid "Frontpage - Middle Left Sidebar"
+msgstr ""
+
+#: inc/widgets/widgets.php:56
+msgid "Frontpage - Middle Right Sidebar"
+msgstr ""
+
+#: 404.php:53
+msgid "Go back to home"
+msgstr ""
+
+#: inc/widgets/widgets.php:43
+msgid "Header Toggle Sidebar"
+msgstr ""
+
+#: inc/theme-starter.php:219
+msgid "Headlines"
+msgstr ""
+
+#: inc/widgets/carousel.php:102
+msgid "Highlights"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumbs.php:313
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumbs.php:819
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://blazethemes.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://blazethemes.com/theme/newsmatic-free/"
+msgstr ""
+
+#: 404.php:49
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: template-parts/content-none.php:43
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/customizer/custom-controls/repeater/repeater.php:119
+msgid "Item Label"
+msgstr ""
+
+#: inc/template-functions.php:272 inc/template-functions.php:311
+msgid "Last 7 days"
+msgstr ""
+
+#: inc/template-functions.php:292 inc/template-functions.php:331
+msgid "Last Month"
+msgstr ""
+
+#: inc/template-functions.php:284 inc/template-functions.php:323
+msgid "Last Week"
+msgstr ""
+
+#: inc/widgets/posts-grid-two-column.php:103 inc/widgets/widget-title.php:52
+msgid "Latest News"
+msgstr ""
+
+#: inc/theme-starter.php:239 inc/theme-starter.php:276
+#: inc/theme-starter.php:302
+msgid "Latest posts"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:70
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/widgets/widget-title.php:60
+msgid "Left"
+msgstr ""
+
+#: inc/extras/extras.php:247 inc/widgets/widgets.php:30
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/widgets/author-info.php:143
+msgid "Lorem ipsum is simply dummy text"
+msgstr ""
+
+#: functions.php:66
+msgid "Main Header"
+msgstr ""
+
+#: inc/hooks/header-hooks.php:162
+msgid "Menu"
+msgstr ""
+
+#: template-parts/content-single.php:37 template-parts/content.php:47
+msgid "mins"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: inc/breadcrumb-trail/breadcrumbs.php:323
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumbs.php:785
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumbs.php:802
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumbs.php:836
+#: inc/breadcrumb-trail/breadcrumbs.php:892
+#: inc/breadcrumb-trail/breadcrumbs.php:1265
+#: inc/breadcrumb-trail/breadcrumbs.php:1267
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/widgets/category-collection.php:81
+msgid "News"
+msgstr ""
+
+#: inc/theme-starter.php:150
+msgid "Newsletter"
+msgstr ""
+
+#. Name of the theme
+msgid "Newsmatic"
+msgstr ""
+
+#: inc/theme-starter.php:363
+msgid "Newsmatic - News WordPress Theme %year%."
+msgstr ""
+
+#: inc/widgets/author-info.php:15
+msgid "Newsmatic : Author Info"
+msgstr ""
+
+#: inc/widgets/carousel.php:15
+msgid "Newsmatic : Carousel Posts"
+msgstr ""
+
+#: inc/widgets/category-collection.php:15
+msgid "Newsmatic : Category Collection"
+msgstr ""
+
+#: inc/widgets/popular-posts.php:15
+msgid "Newsmatic : Popular Posts Slider"
+msgstr ""
+
+#: inc/widgets/posts-grid.php:15
+msgid "Newsmatic : Posts Grid"
+msgstr ""
+
+#: inc/widgets/posts-grid-two-column.php:15
+msgid "Newsmatic : Posts Grid 2 Column"
+msgstr ""
+
+#: inc/widgets/posts-list.php:15
+msgid "Newsmatic : Posts List"
+msgstr ""
+
+#: inc/widgets/widget-title.php:15
+msgid "Newsmatic : Widget Title"
+msgstr ""
+
+#: template-parts/content-single.php:90
+msgid "Next:"
+msgstr ""
+
+#: inc/template-functions.php:537
+msgid "No posts found"
+msgstr ""
+
+#: inc/extras/extras.php:243
+msgid "No Sidebar"
+msgstr ""
+
+#: template-parts/content-none.php:16
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:14
+#, php-format
+msgid "Nothing Found for - %1s"
+msgstr ""
+
+#: inc/widgets/posts-grid-two-column.php:115 inc/widgets/posts-grid.php:115
+#: inc/widgets/posts-list.php:133
+msgid "Number of posts to show"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. %s is the page number.
+#: inc/breadcrumb-trail/breadcrumbs.php:319
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: template-parts/content-page.php:23 template-parts/content-single.php:75
+msgid "Pages:"
+msgstr ""
+
+#: inc/widgets/popular-posts.php:99
+msgid "Popular News"
+msgstr ""
+
+#: inc/widgets/category-collection.php:117
+msgid "Post Categories"
+msgstr ""
+
+#. 1: list of categories.
+#: inc/template-tags.php:113
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: template-parts/content-single.php:89
+msgid "Previous:"
+msgstr ""
+
+#: inc/template-functions.php:307
+msgid "Random"
+msgstr ""
+
+#: inc/theme-starter.php:153
+msgid "Random News"
+msgstr ""
+
+#: inc/theme-starter.php:52
+msgid "Read More"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:26
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/theme-starter.php:377
+msgid "Related News"
+msgstr ""
+
+#: inc/widgets/widget-fields.php:103
+msgid "Remove image"
+msgstr ""
+
+#: inc/widgets/widget-title.php:62
+msgid "Right"
+msgstr ""
+
+#: inc/extras/extras.php:251
+msgid "Right Sidebar"
+msgstr ""
+
+#. %s: search query.
+#: search.php:42
+#, php-format
+msgid "Search Results for : %s"
+msgstr ""
+
+#. %s is the search query.
+#: inc/breadcrumb-trail/breadcrumbs.php:317
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: inc/widgets/carousel.php:92 inc/widgets/popular-posts.php:89
+#: inc/widgets/posts-grid-two-column.php:93 inc/widgets/posts-grid.php:93
+#: inc/widgets/posts-list.php:111
+msgid "Select category"
+msgstr ""
+
+#: inc/customizer/selective-refresh.php:314
+#: inc/hooks/bottom-footer-hooks.php:32
+msgid "Setup Bottom Footer Menu"
+msgstr ""
+
+#: inc/widgets/widgets.php:17
+msgid "Sidebar"
+msgstr ""
+
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#. 1: list of tags.
+#: inc/template-tags.php:130
+#, php-format
+msgid "Tagged: %1$s"
+msgstr ""
+
+#: inc/widgets/widget-title.php:57
+msgid "Text Align"
+msgstr ""
+
+#: inc/widgets/author-info.php:16
+msgid "The information of  in detail author."
+msgstr ""
+
+#: inc/customizer/customizer.php:461 inc/customizer/customizer.php:475
+msgid "Theme Color"
+msgstr ""
+
+#: inc/widgets/widget-title.php:16
+msgid "Theme custom widget title."
+msgstr ""
+
+#: inc/template-functions.php:288 inc/template-functions.php:327
+msgid "This Month"
+msgstr ""
+
+#: inc/template-functions.php:280 inc/template-functions.php:319
+msgid "This Week"
+msgstr ""
+
+#: inc/template-functions.php:335
+msgid "This Year"
+msgstr ""
+
+#: inc/template-functions.php:276 inc/template-functions.php:315
+msgid "Today"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Transform your news site into BBC, CNN, or The New York Times in a snap with "
+"Newsmatic Theme. With the perfect mix of all the right elements, you’ll get "
+"a theme that provides a tailor-made system that ticks every checkbox any "
+"aspiring news site needs. Quicker setup with beautiful pre-built layouts, "
+"news in audio and video formats, breaking news on the ticker, fast page "
+"loading speed, and custom unlimited news blocks for different sections - all "
+"available in Newsmatic Theme. Check out all pre built demos at: https:"
+"//blazethemes.com/theme/newsmatic-free"
+msgstr ""
+
+#: inc/widgets/posts-grid.php:103 inc/widgets/posts-list.php:121
+msgid "Trending News"
+msgstr ""
+
+#: inc/customizer/custom-controls/repeater/repeater.php:171
+msgid "Type to search"
+msgstr ""
+
+#: inc/customizer/custom-controls/repeater/repeater.php:153
+msgid "Upload Image"
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: inc/breadcrumb-trail/breadcrumbs.php:325
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumbs.php:865
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/widgets/author-info.php:113 inc/widgets/carousel.php:100
+#: inc/widgets/category-collection.php:110 inc/widgets/popular-posts.php:97
+#: inc/widgets/posts-grid-two-column.php:101 inc/widgets/posts-grid.php:101
+#: inc/widgets/posts-list.php:119
+msgid "Widget Title"
+msgstr ""
+
+#: inc/widgets/author-info.php:132
+msgid "Writer"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumbs.php:835
+#: inc/breadcrumb-trail/breadcrumbs.php:864
+#: inc/breadcrumb-trail/breadcrumbs.php:891
+#: inc/breadcrumb-trail/breadcrumbs.php:918
+#: inc/breadcrumb-trail/breadcrumbs.php:1257
+#: inc/breadcrumb-trail/breadcrumbs.php:1259
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/theme-starter.php:330
+msgid "You May Have Missed"
+msgstr ""

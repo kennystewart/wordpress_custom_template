@@ -1,0 +1,97 @@
+/** Stylings for everything located in /template-parts/partials/ */
+
+/** sgc_location_tee_info.php 
+ *  sgc_event_tee_info.php */
+.sgc-2021-tees-info {
+    height: 16em;
+}
+.sgc-2021-tees-info .tabs {
+  position: relative;   
+  min-height: 200px; /* This part sucks */
+  clear: both;
+  margin: 25px 0;
+}
+.sgc-2021-tees-info .tab {
+  float: left;
+}
+.sgc-2021-tees-info .tab label {
+  background: #eee; 
+  padding: 0px 10px; 
+  border: 1px solid #ccc; 
+  margin-left: -1px; 
+  position: relative;
+  left: 1px; 
+}
+.sgc-2021-tees-info .tab [type=radio] {
+  display: none;   
+}
+.sgc-2021-tees-info .content {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  background: white;
+  right: 0;
+  padding: 20px;
+  border: 1px solid #ccc; 
+}
+.sgc-2021-tees-info [type=radio]:checked ~ label {
+  background: white;
+  border-bottom: 1px solid white;
+  z-index: 2;
+}
+.sgc-2021-tees-info [type=radio]:checked ~ label ~ .content {
+  z-index: 1;
+}
+.sgc-2021-tees-info table {
+    width: 50%;
+    border: hidden;
+    line-height: 0.1em;
+}
+.sgc-2021-tees-info .tees {
+    position: relative;
+    top: -18px;
+}
+.sgc-2021-tees-info .stats {
+    float: right;
+    font-size: .85em;
+}
+.sgc-2021-tees-info .stats .par,
+.sgc-2021-tees-info .stats .rating,
+.sgc-2021-tees-info .stats .slope {
+    display: inline-block;
+    margin: 0em 1em;
+}
+.sgc-2021-tees-info .tees table {
+    position: relative;
+    left: 4%;
+    width: 90%;
+}
+.sgc-2021-tees-info .tees table * {
+    width: 5em;
+}
+
+/* info tables */
+.sgc-2021-team-players,
+.sgc-2021-team-events,
+.sgc-2021-team-info,
+.sgc-2021-player-info,
+.sgc-2021-location-events,
+.sgc-2021-event-info,
+.sgc-2021-event-players,
+.sgc-2021-event-groups {
+    background-color: white;
+    padding: 0em 0.5em 0.5em 0.5em;
+    border: 1px solid #ccc;
+}
+.sgc-2021-event-players table *,
+.sgc-2021-team-players table *,
+.sgc-2021-team-events table *,
+.sgc-2021-location-events table * {
+    text-align: left;
+}
+
+/** sgc_event_group_info.php */
+.sgc-2021-event-groups .card {
+    display: inline-block;
+    min-width: 49%;
+}

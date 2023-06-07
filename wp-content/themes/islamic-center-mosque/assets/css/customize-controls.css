@@ -1,0 +1,124 @@
+#customize-controls .control-section-islamic-center-mosque .accordion-section-title:hover,
+#customize-controls .control-section-islamic-center-mosque .accordion-section-title:focus {
+	background-color: #fff;
+}
+.control-section-islamic-center-mosque .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+.rtl .control-section-islamic-center-mosque .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+.customize-control input[type=number], 
+.customize-control input[type=search], 
+.customize-control input[type=tel], 
+.customize-control input[type=url], 
+.customize-control input[type=text], 
+.customize-control input[type=password],
+.customize-control input[type=email],
+.customize-control select{
+	border: none;
+}
+.customize-control-title {
+  display: -webkit-inline-box;
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  background: #0085ba;
+  padding: 0px 15px;
+  color: #fff;
+}
+
+/*------- Typogarphy ----------*/
+
+.customize-control-typography li.typography-font-weight,
+.customize-control-typography li.typography-font-style,
+.customize-control-typography li.typography-font-size,
+.customize-control-typography li.typography-line-height {
+  float: left;
+  width: 50%;
+}
+.customize-control-typography li.typography-font-weight select,
+.customize-control-typography li.typography-font-style select {
+  width: 90%;
+}
+.customize-control-typography li.typography-font-weight,
+.customize-control-typography li.typography-font-size {
+  clear: both;
+}
+.customize-control-typography li.typography-font-size input,
+.customize-control-typography li.typography-line-height input {
+  width: 118px;
+}
+input.typography-font-color {
+ padding: 0;
+ margin: 0;
+}
+.customize-control-islamic-center-mosque-typography ul{
+  border-bottom: solid 1px #999;
+  padding-bottom: 12px;
+  padding-left: 0;
+}
+#customize-control-h1_typography,
+#customize-control-h2_typography,
+#customize-control-h3_typography,
+#customize-control-h4_typography,
+#customize-control-h5_typography{
+  border-bottom: solid 2px #1e1e1e1e;
+  padding-bottom: 12px;
+}
+
+/* ---------Customizer--------- */
+.control-section-islamic-center-mosque h3.accordion-section-title {
+  font-size: 12px !important;
+  color: #fff !important;
+  background-color:#2BB673 !important;
+  padding: 12px 10px;
+}
+a.button.button-secondary.alignright {
+  color: #000;
+  box-shadow: none;
+  font-weight: bold;
+  padding: 3px 10px;
+  background: #fff;
+  height: 30px;
+  font-size: 12px !important;
+  border-radius: 5px;
+  border: none;
+}
+a.button.button-secondary.alignright:hover {
+  background: #000;
+  color: #fff;
+  border:none;
+}
+/* ---------Image Toggle --------- */
+img.islamic-center-mosque-radio-img-img {
+  width: 80px;
+  margin-right: 3px;
+}
+img.islamic-center-mosque-radio-img-selected {
+  border: solid 2px #0085ba;
+}
+ul#islamic-center-mosque-img-container{
+  padding-left: 0;
+}
+/* ---------Excerpt & Logo --------- */
+input#_customize-input-islamic_center_mosque_excerpt_number,
+input#_customize-input-logo_size,
+input#_customize-input-islamic_center_mosque_slider_excerpt_number, 
+input#_customize-input-islamic_center_mosque_services_excerpt_number{
+  width: 100%;
+}
+.islamic-center-mosque-social-class{
+  display: none;
+}
+.socialInput{
+  padding: 10px;
+  font-size: 16px;
+}
+input[type="range"] {
+  width: 100%;
+}

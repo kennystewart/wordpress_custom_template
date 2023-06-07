@@ -1,0 +1,52 @@
+2023-06-06T12:41:29+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\first-own-template\wp-content\themes\w_completed\functions.php:145
+Stack trace:
+#0 C:\xampp\htdocs\first-own-template\wp-content\themes\w_completed\functions.php(166): tutsplus_cat_image_links()
+#1 C:\xampp\htdocs\first-own-template\wp-includes\class-wp-hook.php(308): tutsplus_main_shop_before_content('')
+#2 C:\xampp\htdocs\first-own-template\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\first-own-template\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\first-own-template\wp-content\plugins\woocommerce\templates\archive-product.php(29): do_action('woocommerce_bef...')
+#5 C:\xampp\htdocs\first-own-template\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\first-own-template\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\first-own-template\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\first-own-template\wp-content\themes\w_completed\functions.php on line 145
+
+2023-06-06T12:42:21+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\first-own-template\wp-content\themes\w_completed\functions.php:145
+Stack trace:
+#0 C:\xampp\htdocs\first-own-template\wp-content\themes\w_completed\functions.php(166): tutsplus_cat_image_links()
+#1 C:\xampp\htdocs\first-own-template\wp-includes\class-wp-hook.php(308): tutsplus_main_shop_before_content('')
+#2 C:\xampp\htdocs\first-own-template\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\first-own-template\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\first-own-template\wp-content\plugins\woocommerce\templates\archive-product.php(29): do_action('woocommerce_bef...')
+#5 C:\xampp\htdocs\first-own-template\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\first-own-template\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\first-own-template\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\first-own-template\wp-content\themes\w_completed\functions.php on line 145
+
+2023-06-06T12:42:25+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\first-own-template\wp-content\themes\w_completed\functions.php:145
+Stack trace:
+#0 C:\xampp\htdocs\first-own-template\wp-content\themes\w_completed\functions.php(166): tutsplus_cat_image_links()
+#1 C:\xampp\htdocs\first-own-template\wp-includes\class-wp-hook.php(308): tutsplus_main_shop_before_content('')
+#2 C:\xampp\htdocs\first-own-template\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\first-own-template\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\first-own-template\wp-content\plugins\woocommerce\templates\archive-product.php(29): do_action('woocommerce_bef...')
+#5 C:\xampp\htdocs\first-own-template\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\first-own-template\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\first-own-template\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\first-own-template\wp-content\themes\w_completed\functions.php on line 145
+
+2023-06-06T12:42:29+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\first-own-template\wp-content\themes\w_completed\functions.php:145
+Stack trace:
+#0 C:\xampp\htdocs\first-own-template\wp-content\themes\w_completed\functions.php(166): tutsplus_cat_image_links()
+#1 C:\xampp\htdocs\first-own-template\wp-includes\class-wp-hook.php(308): tutsplus_main_shop_before_content('')
+#2 C:\xampp\htdocs\first-own-template\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\first-own-template\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\first-own-template\wp-content\plugins\woocommerce\templates\archive-product.php(29): do_action('woocommerce_bef...')
+#5 C:\xampp\htdocs\first-own-template\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\first-own-template\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\first-own-template\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\first-own-template\wp-content\themes\w_completed\functions.php on line 145
+

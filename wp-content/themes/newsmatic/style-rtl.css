@@ -1,0 +1,1500 @@
+/*!
+Theme Name: Newsmatic
+Theme URI: https://blazethemes.com/theme/newsmatic-free/
+Author: BlazeThemes
+Author URI: https://blazethemes.com/
+Description: Newsmatic is complete solution for your news website. It is fast, features rich, customizer-based, and multipurpose free news theme. It is multilingual compatibility, gutenberg compatibility, elementor compatibility and can be integrated easily with newsletter/form plugins. This theme is schema ready, which makes it a favourite for search engines. Newsmatic Theme does not collect any kind of personal data restricted under GDPR, so you can sleep without any worry by using our theme on your website. Developed by dedicated developers, it has user friendly and easy to use advanced control fields like select2, react color picker, image selector, typography field and many more inside the theme. Check out our pre-build demos here: https://blazethemes.com/theme/newsmatic-freenewsmatic-free
+Version: 1.2.6
+Tested up to: 6.0
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: newsmatic
+Tags: news, blog, entertainment, one-column, two-columns, grid-layout, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-colors, custom-menu, featured-images, full-width-template, post-formats, sticky-post, rtl-language-support, footer-widgets, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Newsmatic is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic
+	- Normalize
+	- Box sizing
+# Base
+	- Typography
+	- Elements
+	- Links
+	- Forms
+## Layouts
+# Components
+	- Navigation
+	- Posts and pages
+	- Comments
+	- Widgets
+	- Media
+	- Captions
+	- Galleries
+# plugins
+	- Jetpack infinite scroll
+# Utilities
+	- Accessibility
+	- Alignments
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Generic
+--------------------------------------------------------------*/
+
+/* Normalize
+--------------------------------------------- */
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+	 ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+
+/* Sections
+	 ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+	margin: 0;
+
+	background-color: red;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+	display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+/* Grouping content
+	 ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+/* Text-level semantics
+	 ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+	background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+	border-bottom: none;
+	text-decoration: underline;
+	text-decoration: underline dotted;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+	font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+	font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+
+/* Embedded content
+	 ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+	border-style: none;
+}
+
+/* Forms
+	 ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+	overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+	text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+	-webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+	outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+	padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *		`fieldset` elements in all browsers.
+ */
+legend {
+	box-sizing: border-box;
+	color: inherit;
+	display: table;
+	max-width: 100%;
+	padding: 0;
+	white-space: normal;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+	vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+	overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+	-webkit-appearance: textfield;
+	outline-offset: -2px;
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+	-webkit-appearance: button;
+	font: inherit;
+}
+
+/* Interactive
+	 ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+	display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+	display: list-item;
+}
+
+/* Misc
+	 ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+	display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+	display: none;
+}
+
+/* Box sizing
+--------------------------------------------- */
+
+/* Inherit box-sizing to more easily change it's value on a component level.
+@link http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+
+/* Typography
+--------------------------------------------- */
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: #404040;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+blockquote {
+	margin: 0 1.5em;
+}
+
+address {
+	margin: 0 0 1.5em;
+}
+
+pre {
+	background: #eee;
+	font-family: "Courier 10 Pitch", courier, monospace;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+
+code,
+kbd,
+tt,
+var {
+	font-family: monaco, consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+mark,
+ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
+
+/* Elements
+--------------------------------------------- */
+body {
+	background: #fff;
+}
+
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+ul,
+ol {
+	margin: 0 3em 1.5em 0;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-right: 1.5em;
+}
+
+dt {
+	font-weight: 700;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+figure {
+	margin: 1em 0;
+}
+
+table {
+	margin: 0 0 1.5em;
+	width: 100%;
+}
+
+/* Links
+--------------------------------------------- */
+a {
+	color: #4169e1;
+}
+
+a:visited {
+	color: #800080;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #191970;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}
+
+/* Forms
+--------------------------------------------- */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	border-color: #ccc #ccc #bbb;
+	border-radius: 3px;
+	background: #e6e6e6;
+	color: rgba(0, 0, 0, 0.8);
+	line-height: 1;
+	padding: 0.6em 1em 0.4em;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	border-color: #ccc #bbb #aaa;
+}
+
+button:active,
+button:focus,
+input[type="button"]:active,
+input[type="button"]:focus,
+input[type="reset"]:active,
+input[type="reset"]:focus,
+input[type="submit"]:active,
+input[type="submit"]:focus {
+	border-color: #aaa #bbb #bbb;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-trendy"],
+input[type="color"],
+textarea {
+	color: #666;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 3px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-trendy"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+	color: #111;
+}
+
+select {
+	border: 1px solid #ccc;
+}
+
+textarea {
+	width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Layouts
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+
+/* Navigation
+--------------------------------------------- */
+.main-navigation {
+	display: block;
+	width: 100%;
+}
+
+.main-navigation ul {
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding-right: 0;
+}
+
+.main-navigation ul ul {
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	float: right;
+	position: absolute;
+	top: 100%;
+	right: -999em;
+	z-index: 99999;
+}
+
+.main-navigation ul ul ul {
+	right: -999em;
+	top: 0;
+}
+
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
+	display: block;
+	right: auto;
+}
+
+.main-navigation ul ul a {
+	width: 200px;
+}
+
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+	right: auto;
+}
+
+.main-navigation li {
+	position: relative;
+}
+
+.main-navigation a {
+	display: block;
+	text-decoration: none;
+}
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+	display: block;
+}
+
+@media screen and (min-width: 48.1em) {
+
+	.menu-toggle {
+		display: none;
+	}
+
+	.main-navigation ul {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+.site-main .comment-navigation,
+.site-main
+.posts-navigation,
+.site-main
+.post-navigation {
+	margin: 0 0 1.5em;
+}
+
+.comment-navigation .nav-links,
+.posts-navigation .nav-links,
+.post-navigation .nav-links {
+	display: flex;
+}
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+	flex: 1 0 50%;
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+	text-align: end;
+	flex: 1 0 50%;
+}
+
+/* Posts and pages
+--------------------------------------------- */
+.sticky {
+	display: block;
+}
+
+.post,
+.page {
+	margin: 0 0 1.5em;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+/* Comments
+--------------------------------------------- */
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.bypostauthor {
+	display: block;
+}
+
+/* Widgets
+--------------------------------------------- */
+.widget {
+	margin: 0 0 1.5em;
+}
+
+.widget select {
+	max-width: 100%;
+}
+
+/* Media
+--------------------------------------------- */
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+/* Make sure logo link wraps around logo image. */
+.custom-logo-link {
+	display: inline-block;
+}
+
+/* Captions
+--------------------------------------------- */
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
+
+.wp-caption-text {
+	text-align: center;
+}
+
+/* Galleries
+--------------------------------------------- */
+.gallery {
+	margin-bottom: 1.5em;
+	display: grid;
+	grid-gap: 1.5em;
+}
+
+.gallery-item {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+.gallery-columns-2 {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.gallery-columns-3 {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.gallery-columns-4 {
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.gallery-columns-5 {
+	grid-template-columns: repeat(5, 1fr);
+}
+
+.gallery-columns-6 {
+	grid-template-columns: repeat(6, 1fr);
+}
+
+.gallery-columns-7 {
+	grid-template-columns: repeat(7, 1fr);
+}
+
+.gallery-columns-8 {
+	grid-template-columns: repeat(8, 1fr);
+}
+
+.gallery-columns-9 {
+	grid-template-columns: repeat(9, 1fr);
+}
+
+.gallery-caption {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+# Plugins
+--------------------------------------------------------------*/
+
+/* Jetpack infinite scroll
+--------------------------------------------- */
+
+/* Hide the Posts Navigation and the Footer when Infinite Scroll is in use. */
+.infinite-scroll .posts-navigation,
+.infinite-scroll.neverending .site-footer {
+	display: none;
+}
+
+/* Re-display the Theme Footer when Infinite Scroll has reached its end. */
+.infinity-end.neverending .site-footer {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+# Utilities
+--------------------------------------------------------------*/
+
+/* Accessibility
+--------------------------------------------- */
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	clip-path: none;
+	color: #21759b;
+	display: block;
+	font-size: 0.875rem;
+	font-weight: 700;
+	height: auto;
+	right: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+}
+
+/* Do not show the outline on the skip link target. */
+#primary[tabindex="-1"]:focus {
+	outline: 0;
+}
+
+/* Alignments
+--------------------------------------------- */
+.alignleft {
+	float: left;
+	margin-right: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.alignright {
+	float: right;
+	margin-left: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 1.5em;
+}
+
+/** Headers **/
+body.rtl .site-header.layout--default .social-icons-wrap {
+	text-align: right;
+}
+
+body.rtl .post-meta > span {
+	display: inline-block;
+	padding-left: 5px;
+}
+
+body.rtl .site-header.layout--default .search-form-wrap {
+	left: 0;
+	right: auto;
+}
+
+@media (min-width: 48.1em){
+	body.rtl .main-navigation ul.menu li.menu-item-has-children > a:after {
+	    margin-right: 8px;
+	    margin-left: 0px;
+	}
+
+	body.rtl .main-navigation ul.menu ul {
+		right: -999em;
+		left: auto;
+	}
+
+	body.rtl .main-navigation ul.menu ul.sub-menu {
+		text-align: left;
+	}
+}
+
+body.rtl a.view-all-button {
+	right: initial;
+    left: 20px;
+}
+
+body.rtl .news-filter-post-wrap a.view-all-button,
+body.rtl .news-carousel a.view-all-button {
+	left: 2px;
+}
+
+body.rtl .news-grid figure.post-thumb-wrap .post-categories {
+	padding-right: 0;
+	right: 10px;
+}
+
+body.rtl #theme-content .row .secondary-sidebar {
+	margin-left: 0;
+	padding: 0;
+	margin-right: 20px;
+}
+
+body.rtl.post-layout--one #theme-content .primary-content {
+	margin-right: 0px;
+}
+
+body.rtl.post-layout--one #theme-content .primary-content article figure {
+	margin: 0;
+	margin-left: 25px;
+}
+
+body.rtl .post-meta span.author_name:before,
+body.rtl .post-meta a.author_name:before {
+	padding-left: 7px;
+}
+
+body.rtl .post-meta span.post-date:before,
+body.rtl .post-meta span.post-comment:before,
+body.rtl .read-time:before
+ {
+	padding-left: 4px;
+	float: right;
+}
+
+body.rtl .page-numbers i {
+	transform: rotate(180deg);
+}
+
+body.rtl.post-layout--one #theme-content .primary-content article figure .post-categories {
+	margin: 0;
+	padding-left: 0;
+	padding-right: 0px;
+}
+
+body.rtl.post-layout--one #theme-content .primary-content article figure .post-categories li{
+	margin: 0;
+	margin-left: 5px;
+}
+
+body.rtl h2.newsmatic-block-title span sub, 
+body.rtl h2.newsmatic-widget-title span sub {
+	display: inline-block;
+}
+
+body.rtl .news-carousel .slick-dots {
+	text-align: left;
+	left: 10px;
+	right: auto;
+}
+
+body.rtl h2.newsmatic-block-title span:before, 
+body.rtl h2.newsmatic-widget-title span:before {
+	right: 0;
+	border-left: 5px solid transparent;
+	border-top: 5px solid var(--theme-color-red);
+	border-right: 0;
+}
+
+body.rtl .news-grid figure.post-thumb-wrap .post-categories li {
+	margin-right: 0px;
+	margin-left: 5px;
+}
+
+body.rtl .news-list-post-wrap.column--two .list-item {
+	padding: 0 10px 20px;
+}
+
+@media (max-width: 940px) {
+	body.rtl .news-list-post-wrap.column--two .list-item {
+		padding-left: 0;
+	}
+}
+
+body.rtl .news-list-post-wrap .list-item figure.post-thumb-wrap {
+	margin-right: 0px;
+	margin-left: 25px;
+}
+
+body.rtl .news-list-post-wrap .list-item figure.post-thumb-wrap .post-categories {
+	padding: 0;
+	right: 10px;
+	align-items: flex-start;
+}
+
+body.rtl .news-list-post-wrap .list-item figure.post-thumb-wrap .post-categories li {
+	margin-right: 0px;
+	margin-left: 5px;
+}
+
+body.rtl .layout--two .news-list-post-wrap .list-item figure.post-thumb-wrap,
+body.rtl .layout--three .news-list-post-wrap .list-item figure.post-thumb-wrap {
+	margin-right: 25px;
+	margin-left: 0px;
+}
+
+@media (max-width: 610px) {
+	body.rtl .layout--two .news-list-post-wrap .list-item figure.post-thumb-wrap {
+		margin-right: 0;
+	}
+}
+
+body.rtl .news-filter .filter-tab-wrapper {
+	text-align: left;
+}
+
+body.rtl .news-filter .post-categories {
+	padding-right: 5px;
+	right: 5px;
+}
+
+body.rtl .news-filter .post-categories li{
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+body.rtl .widget_newsmatic_posts_list_widget .post-item .post-content-wrap {
+	padding-right: 15px;
+	padding-left: 0;
+}
+
+body.rtl .widget-tabs-content .post-element {
+	margin-left: 0;
+	margin-right: 15px;
+}
+
+body.rtl .widget_newsmatic_popular_posts_widget .newsmatic_vertical_slider .popular-posts-wrap .slick-arrow.slick-prev,
+body.rtl .newsmatic-widget-carousel-posts.newsmatic_vertical_slider .slick-arrow.slick-prev {
+	right: auto;
+	left: 0px;
+}
+
+body.rtl .widget_newsmatic_popular_posts_widget .newsmatic_vertical_slider .popular-posts-wrap .slick-arrow.slick-next,
+body.rtl .newsmatic-widget-carousel-posts.newsmatic_vertical_slider .slick-arrow.slick-next{
+	right: auto;
+	left: 45px;
+}
+
+body.rtl .popular-posts-wrap .slick-track article .post-element {
+	padding-left: 0;
+	padding-right: 15px;
+}
+
+body.rtl .widget .opinion-title{
+	text-align: right;
+}
+
+body.rtl .opinion-meta {
+	float: right;
+}
+
+body.rtl .opinion-meta i{
+	float: left;
+}
+
+body.rtl body.single #theme-content .primary-content .single-related-posts-wrap article .post-title {
+	text-align: right;
+}
+
+body.rtl .single-related-posts-wrap {
+	text-align: right;
+}
+
+body.rtl .single-related-posts-section-wrap h2.newsmatic-block-title {
+	text-align:right;
+
+}
+
+body.rtl .single-related-posts-section-wrap h2.newsmatic-block-title span:before {
+	right: 0;
+	border-left: 5px solid transparent;
+	border-top: 5px solid var(--theme-color-red);
+	border-right: 0;
+	left: auto;
+}
+
+body.rtl .leftc-rights-section .secondary-sidebar {
+	margin-left: 0;
+	margin-right: 20px;
+}
+
+@media (max-width: 769px) {
+	body.rtl .menu_txt {
+		padding-left: 0;
+		padding-right: 8px;
+	}
+}
+
+body.rtl .popular-posts-wrap .slick-prev {
+	right: auto;
+	left: 50px;
+}
+body.rtl .popular-posts-wrap .slick-next {
+	left: 10px;
+	right: auto;
+}
+
+body.rtl .newsmatic-widget-carousel-posts.newsmatic_horizontal_slider .slick-arrow.slick-prev {
+	left: 0;
+	right: auto;
+}
+
+body.rtl .newsmatic-widget-carousel-posts.newsmatic_horizontal_slider .slick-arrow.slick-next {
+	left: 40px;
+	right: auto;
+}
+
+body.rtl #theme-content .primary-content .news-list-wrap article figure .post-categories {
+	padding-right: 0px;
+}
+
+body.rtl.post-layout--two #theme-content .primary-content .news-list-wrap article figure .post-categories li{
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+body.rtl .ticker-news-wrap.layout--two .newsmatic-ticker-box ul li{
+	align-items: flex-end;
+	text-align: right;
+	float: right;
+}
+
+body.rtl.right-sidebar #theme-content .row .secondary-sidebar, 
+body.rtl.left-sidebar #theme-content .row .secondary-sidebar{
+	margin-left: 0;
+}
+
+body.rtl .single-related-posts-section-wrap {
+	left: 0;
+	right: auto;
+	bottom: 0;
+}
+
+body.rtl.newsmatic-image-hover--effect-two .post-thumb::before,
+body.rtl.newsmatic-image-hover--effect-two .post-thumb-wrap::before {
+		position: absolute;
+		top: 0;
+		right: -75%;
+		z-index: 2;
+		display: block;
+		content: '';
+		width: 50%;
+		height: 100%;
+		background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+		background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+		-webkit-transform: skewX(-25deg);
+		transform: skewX(-25deg);
+	}
+	body.rtl.newsmatic-image-hover--effect-two .post-thumb:hover::before,
+	body.rtl.newsmatic-image-hover--effect-two .post-thumb-wrap:hover::before {
+		-webkit-animation: rshine 1s;
+		animation: rshine 1s;
+	}
+	@-webkit-keyframes rshine {
+		100% {
+			right: 125%;
+		}
+	}
+	@keyframes rshine {
+		100% {
+			right: 125%;
+		}
+	}
+
+	body.rtl .lefts-rightc-section .secondary-sidebar {
+    	margin-right: 0;
+    	margin-left: 20px;
+	}
+
+	body.rtl .ticker-news-wrap span.icon {
+		margin-right: 0;
+		margin-left: 10px;
+	}
+
+	body.rtl .main-banner-wrap .slick-dots {
+		text-align: left;
+		left: 10px;
+		width: initial;
+	}
+
+	body.rtl a.view-all-button i {
+		transform: rotate(179deg);
+	}
+
+	body.rtl ul.page-numbers {
+		margin-right: 0;
+		padding-right: 0;
+	}
+
+	body.rtl a.post-link-button i {
+		transform: rotate(179deg);
+	}
+
+	body.rtl .navigation.posts-navigation .nav-next {
+		text-align: center;
+	}
+
+	body.rtl .ticker-news-wrap.layout--two .ticker_label_title:after {
+		left: -9px;
+		right: initial;
+		transform: rotate(180deg);
+	}
+
+	body.rtl .newsmatic-widget-carousel-posts.layout--one .carousel-posts-wrap .post-categories {
+		right: 0;
+	}
+
+	body.rtl .post-inner-wrapper .post-categories {
+		padding-right: 0;
+	}
+
+	body.rtl.single .navigation.post-navigation .nav-links > div {
+	    border-left: 1px solid #d9d9d9;
+	    border-right: none;
+	}
+
+	body.rtl.single .navigation.post-navigation .nav-previous {
+		text-align: left;
+		padding-left: 20px;
+	}
+
+	body.rtl.single .navigation.post-navigation .nav-next {
+		text-align: right;
+		padding-right: 20px;
+	}
+
+	body.rtl.single .navigation.post-navigation .nav-next i {
+	    transform: rotate(180deg);
+	}
+
+	body.rtl.single .navigation.post-navigation .nav-previous i {
+		transform: rotate(180deg);
+	}
+
+	@media (max-width: 769px) {
+		body.rtl ul.menu .toggle-sub-menu {
+			left: 2px;
+			right: initial;
+			text-align: left;
+		}
+	}
+
+	body.rtl .site-footer .site-info {
+		text-align: right;
+	}
+
+	body.rtl .bottom-menu {
+		text-align: left;
+	}
+
+	body.rtl .news-grid.layout--four .post-categories {
+		padding-right: 0;
+	}
+
+	body.rtl .news-list.layout--two .news-list-post-wrap.column--three .list-item figure.post-thumb-wrap {
+		margin-left: 0;
+		margin-right: 15px;
+	}
+
+	body.rtl .banner-layout--four .main-banner-wrap {
+		padding-right: 0;
+		padding-left: 4px;
+	}
+
+	body.rtl .banner-layout--four .main-banner-wrap {
+		padding-right: 0;
+		padding-left: 4px;
+	}
+
+	body.rtl .banner-layout--four .main-banner-block-posts.banner-trailing-posts {
+		padding-right: 4px;
+		padding-left: 0;
+	}
+
+	body.rtl .banner-layout--four.tab_slider--banner_slider .main-banner-wrap {
+		padding-right: 4px;
+		padding-left: 0;
+	}
+
+	body.rtl .banner-layout--four.tab_slider--banner_slider .main-banner-block-posts.banner-trailing-posts {
+		padding-right: 0;
+		padding-left: 4px;
+	}
+
+	body.rtl .banner-layout--four .post-categories {
+		padding-right: 0;
+	}
+
+	body.rtl .widget_newsmatic_posts_list_widget .layout-three .post-item:first-child .post-numbering {
+		float: left;
+	}
+
+	body.rtl .widget ul li,
+	body.rtl .widget ol li {
+		padding: 9px 14px 9px 0;
+	}
+
+	body.rtl .widget ul li:before,
+	body.rtl .widget ol li:before {
+		right: 0;
+	    transform: rotate(180deg);
+	    left: initial;
+	}
+
+	body.rtl .site-header.layout--default .header-right-button-wrap .title-icon i {
+		padding: 0 0 0 6px;
+	}
+
+	body.rtl .site-header.layout--default .header-right-button-wrap > div:first-child {
+		padding-left: 30px;
+	}
+
+	body.rtl .site-header.layout--default .header-right-button-wrap > div:last-child {
+		padding-left: 0;
+	}
+
+	body.rtl .modal-content {
+		padding: 0 0 0 20px;
+	}
+
+	body.rtl .site-header.layout--default .mode_toggle_wrap {
+		padding: 0 20px 0 0;
+	}
+
+	body.rtl.left-sidebar #theme-content .row .secondary-left-sidebar {
+		margin-right: 0;
+		margin-left: 20px;
+	}
+
+	body.rtl.both-sidebar #theme-content .row .secondary-left-sidebar {
+		margin-right: 0;
+		margin-left: 20px;
+	}
+
+	body.rtl.both-sidebar #theme-content .row .secondary-sidebar {
+		margin-left: 0;
+	}
+
+	body.rtl.left-both-sidebar #theme-content .secondary-left-sidebar,
+	body.rtl.left-both-sidebar #theme-content .secondary-sidebar {
+		margin-left: 20px;
+		margin-right: 0;
+	}
+
+	body.rtl.right-both-sidebar #theme-content .secondary-left-sidebar,
+	body.rtl.right-both-sidebar #theme-content .secondary-sidebar {
+		margin-left: 0;
+		margin-right: 20px;
+	}
+
+	@media (max-width: 1025px) {
+		body.rtl #theme-content .row .secondary-left-sidebar,
+		body.rtl #theme-content .row .secondary-sidebar {
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+		body.rtl.both-sidebar #theme-content .row .secondary-left-sidebar {
+			margin-left: 0;
+		}
+	}
+
+	body.rtl .site-header.layout--default .top-ticker-news .slick-list li {
+		text-align: left;
+	}
+
+	body.rtl .site-header.layout--default .top-ticker-news .slick-list {
+		margin-right: auto;
+	}
+
+	/* Filter */
+	body.rtl .news-filter .tab-title {
+		padding: 0 15px 0 0;
+	}
+
+	body.rtl .news-filter.layout--four .trailing-post .post-element {
+		padding: 0 18px 0 0;
+	} /* filter end*/
+
+	body.rtl .banner-layout--four.tab_slider--banner_slider .main-banner-wrap {
+		padding: 0 4px 0 0;
+	}
+
+	body.rtl .newsmatic-widget-carousel-posts .carousel-posts-wrap .post-categories li {
+		padding: 0;
+	}
